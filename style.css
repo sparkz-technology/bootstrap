@@ -1,0 +1,183 @@
+p {
+    font-family: 'Ubuntu', sans-serif;
+    color: #8f8f8f;
+}
+
+h2 {
+    line-height: 1.5;
+    font-size: 3rem;
+}
+
+h1,
+h2,
+h3 {
+    font-family: 'Montserrat', sans-serif;
+    font-weight: bold;
+}
+
+.container-fluid {
+    padding: 0% 15% 7%;
+}
+
+/* navigation-bar */
+.navbar-brand {
+    font-family: 'Ubuntu';
+    font-size: 2.5rem;
+    font-weight: bold;
+}
+
+.navbar {
+    padding-top: 4.0rem;
+}
+
+.nav-item {
+    padding: 0% 18px;
+}
+
+.nav-link {
+    font-weight: lighter;
+    font-size: 1.2rem;
+    font-weight: bold;
+}
+
+/* download-button */
+.download-button {
+    margin: 5% 3% 5% 0%;
+}
+
+/* title-image */
+.iphone {
+    transform: rotate(25deg);
+    position: absolute;
+}
+
+/* title */
+#title h1 {
+    font-size: 3.5rem;
+    margin: 3rem 0% 3rem 0%;
+}
+
+#title {
+    background-color: #ff4c68;
+    font-family: 'Ubuntu', sans-serif;
+    color: white;
+}
+
+/* features */
+#features {
+    text-align: center;
+    padding: 7% 15%;
+    background-color: #fff;
+    position: relative;
+}
+
+.fa {
+    color: #ef8172;
+}
+
+.fa:hover {
+    color: #ff4c68;
+}
+
+#features h3 {
+    padding-top: 1.5rem;
+    font-size: 1.5rem;
+}
+
+#features p {
+    padding: 0% 10%;
+}
+
+.feat-box {
+    padding: 2rem 0rem;
+}
+
+/* testimonials */
+#Testimonials {
+    text-align: center;
+    background-color: #ef8172;
+    color: #fff;
+}
+
+.dog {
+    width: 10%;
+    border-radius: 100%;
+    margin: 20px;
+}
+
+/* press */
+#press {
+    background-color: #ef8172;
+    text-align: center;
+    padding-bottom: 3%;
+}
+
+.press-logo {
+    width: 15%;
+    margin: 20px 20px 50px;
+}
+
+.carousel-item {
+    padding: 7% 15%;
+}
+
+/* pricing */
+#pricing {
+    text-align: center;
+    padding: 7% 15%;
+}
+
+.row {
+    margin-top: 3rem;
+}
+
+/* cta */
+#cta {
+    background-color: #ff4c68;
+    padding: 7% 15%;
+    text-align: center;
+
+}
+
+#cta h3 {
+    font-size: 3rem;
+    color: #fff;
+}
+
+#footer {
+    padding: 7% 15%;
+    text-align: center;
+}
+
+.footer {
+    padding: 1rem 0.7rem;
+}
+
+/* carousel-item */
+.carousel-item {
+    transition: -webkit-transform 0.6s ease;
+    transition: transform 0.6s ease;
+}
+
+@media (max-width:990px) {
+
+    /* title */
+    #title {
+        text-align: center;
+
+    }
+
+    .iphone {
+        position: static;
+        transform: none;
+        width: 60%;
+    }
+}
+
+@media (max-width:320px) {
+
+    #title h1 {
+        font-size: 1rem;
+
+    }
+}
