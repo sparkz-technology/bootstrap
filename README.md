@@ -40,6 +40,4 @@ The template is designed to be compatible with modern web browsers. It utilizes 
 - [Google Fonts](https://fonts.google.com/): A collection of free and open-source fonts provided by Google.
 - [Font Awesome](https://fontawesome.com/): A library of scalable vector icons that can be customized with CSS.
 
-## License
 
-This template is provided under the [MIT License](LICENSE). You are free to use, modify, and distribute the template for personal or commercial projects. Attribution is not required but appreciated.
